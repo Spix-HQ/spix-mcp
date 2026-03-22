@@ -5,7 +5,7 @@ accessed via resource:// URIs and return data from the backend API.
 
 Example URIs:
 - resource://calls/cse_001/transcript
-- resource://playbooks/cmp_call_abc123
+- resource://playbooks/plb_call_abc123
 - resource://billing/credits
 """
 
