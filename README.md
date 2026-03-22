@@ -1,5 +1,7 @@
 # Spix MCP Server
 
+[![spix-mcp MCP server](https://glama.ai/mcp/servers/Spix-HQ/spix-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Spix-HQ/spix-mcp)
+
 Give AI agents the ability to make phone calls and send emails — as MCP tool calls.
 
 [Spix](https://spix.sh) is communications infrastructure for AI agents. This MCP server exposes Spix's API as tools that any MCP-compatible client (Claude Desktop, Cursor, Windsurf, etc.) can use.
