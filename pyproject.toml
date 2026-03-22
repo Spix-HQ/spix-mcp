@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spix-mcp"
+version = "0.0.1"
+description = "Spix MCP Server — give AI agents phone calls and email as tool calls"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "Spix", email = "hello@spix.sh" }]
+keywords = ["mcp", "ai", "agents", "phone", "calls", "email", "spix"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications",
+]
+dependencies = [
+    "mcp>=1.0",
+    "httpx>=0.27",
+    "orjson>=3.9",
+]
+
+[project.urls]
+Homepage = "https://spix.sh"
+Documentation = "https://docs.spix.sh"
+Repository = "https://github.com/Spix-HQ/spix-mcp"
+Issues = "https://github.com/Spix-HQ/spix-mcp/issues"
+
+[project.scripts]
+spix-mcp = "spix_mcp.__main__:main"
