@@ -1,0 +1,31 @@
+{
+  "serverInfo": {
+    "name": "Spix MCP Server",
+    "version": "0.0.1"
+  },
+  "authentication": {
+    "required": true,
+    "schemes": ["bearer"]
+  },
+  "tools": [
+    {"name": "spix_call_create", "description": "Make an outbound AI phone call with a configured playbook"},
+    {"name": "spix_call_list", "description": "List recent calls"},
+    {"name": "spix_call_get", "description": "Get details of a specific call"},
+    {"name": "spix_call_transcript", "description": "Get the full transcript of a call"},
+    {"name": "spix_call_summary", "description": "Get an AI-generated call summary"},
+    {"name": "spix_email_send", "description": "Send an email from a provisioned Spix inbox"},
+    {"name": "spix_email_reply", "description": "Reply to an email thread"},
+    {"name": "spix_email_list", "description": "List emails in an inbox"},
+    {"name": "spix_contact_create", "description": "Create or update a contact"},
+    {"name": "spix_contact_list", "description": "List contacts"},
+    {"name": "spix_contact_get", "description": "Get contact details"},
+    {"name": "spix_contact_history", "description": "Get cross-channel interaction history for a contact"},
+    {"name": "spix_contact_summary", "description": "Get AI summary of contact relationship"},
+    {"name": "spix_playbook_list", "description": "List available call playbooks"},
+    {"name": "spix_playbook_get", "description": "Get details of a playbook"},
+    {"name": "spix_phone_number_list", "description": "List provisioned phone numbers"},
+    {"name": "spix_billing_credits", "description": "Check remaining call credits"}
+  ],
+  "resources": [],
+  "prompts": []
+}
