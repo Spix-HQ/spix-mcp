@@ -1,1 +1,42 @@
-{"$schema":"https://glama.ai/mcp/schemas/server.json","maintainers":["bluman1"]}
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "spix-mcp",
+  "displayName": "Spix — AI Phone Calls & Email",
+  "description": "Give any MCP-compatible AI client a real phone number. Make outbound AI voice calls, send email, manage contacts, and retrieve transcripts — all from Claude Desktop, Cursor, or any MCP client.",
+  "license": "MIT",
+  "homepage": "https://spix.sh",
+  "repository": "https://github.com/Spix-HQ/spix-mcp",
+  "maintainers": ["bluman1"],
+  "keywords": [
+    "phone",
+    "voice",
+    "calls",
+    "email",
+    "communications",
+    "twilio",
+    "ai-agents",
+    "agentic",
+    "telephony"
+  ],
+  "categories": ["communication", "productivity", "tools"],
+  "install": {
+    "pip": "pip install spix-mcp",
+    "uvx": "uvx spix-mcp"
+  },
+  "config": {
+    "env": {
+      "SPIX_API_KEY": {
+        "description": "Your Spix API key — get one at app.spix.sh/settings/api-keys",
+        "required": true
+      },
+      "SPIX_DEFAULT_PLAYBOOK": {
+        "description": "Default playbook ID to use for calls (optional)",
+        "required": false
+      },
+      "SPIX_TOOL_PROFILE": {
+        "description": "Tool profile: 'safe' (default, 43 tools) or 'full' (49 tools including destructive ops)",
+        "required": false
+      }
+    }
+  }
+}
