@@ -291,11 +291,14 @@ Use `spix-mcp` if you only need the MCP server (e.g. for Claude Desktop integrat
 
 ## Links
 
-- **Website:** [spix.sh](https://spix.sh)
+- **Spix — AI agent communications infrastructure:** [spix.sh](https://spix.sh)
 - **Dashboard:** [app.spix.sh](https://app.spix.sh)
-- **Docs:** [docs.spix.sh/mcp](https://docs.spix.sh/mcp)
-- **CLI:** [Spix-HQ/spix-cli](https://github.com/Spix-HQ/spix-cli)
+- **Docs — MCP server reference:** [docs.spix.sh/mcp](https://docs.spix.sh/mcp)
+- **Spix CLI — phone calls, SMS, email from the terminal:** [Spix-HQ/spix-cli](https://github.com/Spix-HQ/spix-cli)
 - **PyPI:** [pypi.org/project/spix-mcp](https://pypi.org/project/spix-mcp/)
+- **Recipes — ready-to-use agent workflows:** [spix.sh/recipes](https://spix.sh/recipes)
+- **Blog — tutorials and guides:** [spix.sh/blog](https://spix.sh/blog)
+- **X/Twitter:** [@spixhq](https://x.com/spixhq)
 
 ---
 
